@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     ],
     router: {
         base: '/dutra-e-amaral/' 
-    }
+    },
+    target: 'static'
 })
 
