@@ -4,9 +4,6 @@ export default defineNuxtConfig({
     router: {
         base: '/dutra-e-amaral/' 
     },
-    app: {
-        baseURL: '/dutra-e-amaral/' // baseURL: '/<repository>/'
-    },
     components: true,
     css: [
         '~/assets/styles/global.css'
