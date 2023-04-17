@@ -1,0 +1,32 @@
+<template>
+  <div>
+    <NuxtLayout>
+      <main class="main">
+        <TheSection ContentTitle="Áreas de Atuação">
+          <div class="list">
+            <Cards CardTitle="Previdenciário" ico="ico-database">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis commodo elit non sagittis.
+            </Cards>
+            <Cards CardTitle="Consultoria Jurídica" ico="ico-database">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis commodo elit non sagittis.
+            </Cards>
+
+
+          </div>
+          </TheSection>
+
+        <TheSection ContentTitle="Quemo Somos">
+          <QuemSomos />
+        </TheSection>
+
+        <section class="content">
+          <h2 class="content-title">
+          Nosso Escritório
+          </h2>
+
+        </section>
+      </main>
+    </NuxtLayout>
+  </div>
+</template>
+

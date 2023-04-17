@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Roboto+Slab:wght@400;700&display=swap');
+::selection{
+    background-color:#ffeda8;
+    color:#000
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    background: #f7f7f7;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Barlow', sans-serif;
+}

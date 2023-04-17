@@ -1,0 +1,23 @@
+<template>
+    <div>
+        <div class="content-white">
+          <section class="content">
+            <h2 class="content-title">
+              {{ ContentTitle }}
+            </h2>
+            <Cards />
+          </section>
+        </div>
+    </div>
+</template>
+
+<script>
+import { Cards } from '~/.nuxt/components';
+
+    export default {
+    props: [
+        "ContentTitle"
+    ],
+    components: { Cards }
+}
+</script>
