@@ -67,7 +67,7 @@
   }
 
   .banner {
-    background: #a35048 url('~/assets/banner.jpg') no-repeat;
+    background: #a35048 url('banner.jpg') no-repeat;
     background-size: cover;
     min-height: 425px;
     padding: 0 30px;

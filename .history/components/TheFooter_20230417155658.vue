@@ -10,7 +10,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .footer {
         background-color: #a35048;
         font-size: 16px;
@@ -20,8 +20,11 @@
         color: #fff;
     }
 
-    .adr {
+    .address {
         font-style: normal;
-        font-size: 14px;
+    }
+
+    .content {
+        padding: 15px;
     }
 </style>

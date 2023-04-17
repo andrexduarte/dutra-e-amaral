@@ -10,7 +10,7 @@
     </div>
 </template>
 
-<style>
+<style scss>
     .footer {
         background-color: #a35048;
         font-size: 16px;
@@ -18,10 +18,9 @@
         padding: 20px 15px;
         text-align: center;
         color: #fff;
-    }
-
-    .adr {
-        font-style: normal;
-        font-size: 14px;
+        
+        .content {
+            padding: 15px;
+        }
     }
 </style>
