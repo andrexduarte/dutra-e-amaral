@@ -5,7 +5,7 @@
                 {{ item.depoimento }}
             </p>
             <footer>
-                <img :src="`/avatar/${ item.image }.jpg`" :alt="item.autor" class="avatar">
+                <img :src="`./avatar/${ item.image }.jpg`" :alt="item.autor" class="avatar">
                 <cite>
                      {{ item.autor }}
                 </cite>
@@ -106,7 +106,7 @@
     @media only screen and (max-width: 768px) {
       .list-depoimentos {
         flex-wrap: wrap;
-        
+
         .depoimento {
             width: 100%;
         }
