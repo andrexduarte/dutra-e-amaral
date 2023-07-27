@@ -1,26 +1,14 @@
 <template>
-    <div class="grid">
+    <div class="content">
         <div class="card">
-            <img src="~assets/glaucia-amaral.jpg" class="card-img" alt="Gláucia Amaral">
+            <img src="~assets/dutra-amaral.jpg" class="card-img" alt="Dutra e Amaral">
             <h2 class="card-title">
-            Dra. Amaral
+              Dra. Whênia Maria Martins Costa e Dutra - OAB/MG 129.430
             </h2>
-            <p class="card-desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-
-            <a href="#" class="card-button">Falar com a Dra. Gláucia</a>
-        </div>
-
-        <div class="card">
-            <img src="~assets/dutra.jpg" class="card-img" alt="Dutra">
             <h2 class="card-title">
-            Dra. Dutra
+              Dra. Gláucia de Oliveira Amaral - OAB/MG 129.513
             </h2>
-            <p class="card-desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-            <a href="#" class="card-button">Falar com a Dra. Dutra</a>
+            <Button />
         </div>
     </div>
 </template>
@@ -34,12 +22,24 @@
     grid-row-gap: 1em;
   }
 
+  .card {
+    text-align: center;
+  }
+
   .card-title {
-    font-size: 20px;
+    color: #000;
+    font-size: 35px;
+    margin: 0;
+  }
+
+  .card-title + .card-title {
+    margin-bottom: 35px;
   }
 
   .card-img {
+    border-radius: 3px;
     max-width: 100%;
+    margin-bottom: 30px;
   }
 
   .card-desc {
@@ -63,6 +63,11 @@
 
     .card {
       margin-bottom: 15px;
+    }
+
+    
+    .card-title + .card-title {
+      margin: 25px 0 35px;
     }
   }
 </style>

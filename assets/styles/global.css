@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Mulish:wght@300;400;600&display=swap');
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -355,14 +355,13 @@
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
 }
 
 h1, h2, h3,
 h4, h5, h6 {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'EB Garamond', serif;
     color: #75362f;
 }
 
@@ -389,13 +388,20 @@ h4, h5, h6 {
 }
 
 .btn {
-    background: #FFF;
-    padding: 10px 20px;
-    color: #a35048;
-    font-weight: bold;
+    background: #a35048;
+    display: inline-block;
+    padding: 8px 30px;
+    color: #fff;
     text-decoration: none;
-    font-size: 14px;
-    border-radius: 2px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    font-size: 16px;
+    padding: 14px 25px;
+  }
 }
 
 .btn:hover {

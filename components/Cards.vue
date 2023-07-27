@@ -57,23 +57,7 @@
     top: 20px;
     left: 0;
   }
-
-  .list .ico-calculator:before {
-    background: center url('~/assets/ico-calculator.svg') no-repeat;
-  }
-
-  .list .ico-tie:before {
-    background: center url('~/assets/ico-tie.svg') no-repeat;
-  } 
-
-  .list .ico-chart:before {
-    background: center url('~/assets/ico-chart.svg') no-repeat;
-  }
-
-  .list .ico-database:before {
-    background: center url('~/assets/ico-database.svg') no-repeat;
-  }
-
+  
   @media only screen and (max-width: 768px) {
     .list {
       flex-wrap: wrap;

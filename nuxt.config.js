@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     },
     components: true,
     css: [
-        '~/assets/styles/global.css'
+        '~/assets/font-awesome-4.7.0/css/font-awesome.min.css',
+        '~/assets/styles/global.css',
     ]
 })
