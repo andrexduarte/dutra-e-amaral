@@ -113,7 +113,7 @@
     font-family: 'EB Garamond', serif;
     font-size: 20px;
     margin-bottom: 40px;
-    color: #FFF;
+    color: rgba(#FFF, .8);
   }
 
   .banner:before {
@@ -128,7 +128,7 @@
   }
 
   .page-title {
-    color: #FFF;
+    color: rgba(#FFF, .8);
     font-family: 'EB Garamond', serif;
     font-weight: 400;
     margin: 0;

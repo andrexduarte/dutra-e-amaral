@@ -17,7 +17,7 @@
           </div>
         </TheSection>
 
-        <TheSection ContentTitle="Clientes Satisfeitos">
+        <TheSection ContentTitle="O que nossos clientes dizem">
           <Depoimentos />
         </TheSection>
 

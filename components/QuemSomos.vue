@@ -13,7 +13,7 @@
     </div>
 </template>
 
-<style>
+<style lang="scss">
 /* card */
   .grid {
     display: grid;
@@ -27,7 +27,6 @@
   }
 
   .card-title {
-    color: #000;
     font-size: 35px;
     margin: 0;
   }
@@ -65,9 +64,13 @@
       margin-bottom: 15px;
     }
 
-    
-    .card-title + .card-title {
-      margin: 25px 0 35px;
+    .card-title {
+      font-size: 25px;
+      text-align: left;
+
+      + .card-title {
+        margin: 25px 0 35px;
+      }
     }
   }
 </style>

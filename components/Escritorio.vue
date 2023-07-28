@@ -13,12 +13,22 @@
                 <span>
                     <i class="fa fa-whatsapp" aria-hidden="true"></i>
                     <a href="https://api.whatsapp.com/send?phone=5531983619686" target="_blank">
-                        (31) 9836-19686
+                        (31) 98361-9686
                     </a>
                 </span>
                 <span>
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                    <a href="mailto:dutra@gmail.com" target="_blank">dutra@gmail.com</a>
+                    <span>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <a href="mailto:whenia@dutraeamaral.com.br" target="_blank">whenia@dutraeamaral.com.br</a><br>
+                    </span>
+                    <span>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <a href="mailto:glaucia@dutraeamaral.com.br" target="_blank">glaucia@dutraeamaral.com.br</a><br>
+                    </span>
+                    <span>                    
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <a href="mailto:contato@dutraeamaral.com.br" target="_blank">contato@dutraeamaral.com.br</a>
+                    </span>
                 </span>
                 <span>
                     <a href="https://www.facebook.com/dutraeamaraladvocacia/">
