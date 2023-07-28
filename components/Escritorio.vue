@@ -17,10 +17,8 @@
                     </a>
                 </span>
                 <span>
-                    <span>
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <a href="mailto:whenia@dutraeamaral.com.br" target="_blank">whenia@dutraeamaral.com.br</a><br>
-                    </span>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <a href="mailto:whenia@dutraeamaral.com.br" target="_blank">whenia@dutraeamaral.com.br</a><br>
                 </span>
                 <span>
                     <a href="https://www.facebook.com/dutraeamaraladvocacia/">
